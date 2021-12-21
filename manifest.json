@@ -1,0 +1,23 @@
+{
+	"manifest_version": 2,
+	"name": "EBALA remover",
+	"version": "0.0.11",
+	"content_scripts": [
+		{
+			"css": ["styles.css"],
+			"matches": [
+				"https://meduza.io/*",
+				"https://republic.ru/*",
+				"https://tvrain.ru/*"
+			]
+		}
+	],
+	"background": {
+		"scripts": [
+			"background.js"
+		]
+	},
+	"browser_action": {
+		"default_icon": "inoagent.png"
+	}
+}
