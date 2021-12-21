@@ -1,12 +1,12 @@
 removes EBALA from media websites tagged as "foreign agents" by Russian government
 
-currently supported:
+## list of the media supported
 
 - meduza
 - republic
 - tvrain
 
-how to install
+## how to install
 
 - go to chrome://extensions/ in your Chrome
 - click "load unpacked"
